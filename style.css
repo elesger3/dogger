@@ -24,6 +24,12 @@ body {
 #carefor .imgbox {
   width: 500px;
 }
+#carefor .textbox {
+  text-align: center;
+}
+#carefor .textbox h4 {
+  font-size: 28px;
+}
 
 #welcome {
   padding: 40px 0;
@@ -112,6 +118,29 @@ body {
   font-size: 30px;
   padding: 0 0 20px 30px;
 }
+@media screen and (max-width: 992px) {
+  #about .textbox {
+    padding: 0 100px;
+  }
+  #about h1 {
+    font-size: 40px;
+  }
+  #about h3, #about p {
+    font-size: 30px;
+  }
+  #about li {
+    padding: 20px 0 0 0;
+  }
+  #about .icon {
+    padding: 0 15px 0 0;
+  }
+  #about h4 {
+    font-size: 30px;
+  }
+}
+#about .imgbox {
+  width: 500px;
+}
 
 #trainers {
   padding: 40px 0;
@@ -162,6 +191,21 @@ body {
 }
 #trainers .wid {
   width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #trainers h1 {
+    font-size: 48px;
+  }
+  #trainers h3, #trainers h4 {
+    font-size: 26px;
+  }
+  #trainers .box .textbox h2 {
+    font-size: 25px;
+  }
+  #trainers .box .textbox ul li {
+    padding: 20px;
+    width: 40px;
+  }
 }
 
 #pricing {
@@ -223,6 +267,24 @@ body {
 }
 #pricing .PREMIUM-color .btn {
   background-color: #7ab4be;
+}
+@media screen and (max-width: 992px) {
+  #pricing .textbox h1 {
+    font-size: 45px;
+  }
+  #pricing .textbox h5 {
+    font-size: 30px;
+  }
+  #pricing .box {
+    padding: 25px 15px;
+  }
+  #pricing .box li h4 {
+    font-size: 25px;
+    margin: 0 0 0 15px;
+  }
+  #pricing .box .btn {
+    padding: 10px 30px;
+  }
 }
 
 #questions {
@@ -315,6 +377,30 @@ body {
   margin: 0 0 25px;
   font-size: 30px;
 }
+@media screen and (max-width: 992px) {
+  #doggerblog h1 {
+    font-size: 40px;
+  }
+  #doggerblog h3 {
+    font-size: 28px;
+    margin: 30px 0 60px;
+  }
+  #doggerblog .box {
+    display: flex;
+  }
+  #doggerblog .box .textbox h2 {
+    font-size: 28px;
+  }
+  #doggerblog .box .textbox h4 {
+    font-size: 26px;
+  }
+  #doggerblog .box .textbox p {
+    font-size: 23px;
+  }
+  #doggerblog .box .imgbox {
+    width: 900px;
+  }
+}
 
 #ourservices {
   padding: 40px 0;
@@ -351,4 +437,22 @@ body {
 #ourservices .bigicon i {
   font-size: 30px;
   margin: 0 0 20px;
+}
+@media screen and (max-width: 992px) {
+  #ourservices h1 {
+    font-size: 40px;
+  }
+  #ourservices h3 {
+    font-size: 28px;
+    margin: 15px 0 35px;
+  }
+  #ourservices .textbox {
+    margin-bottom: 30px;
+  }
+  #ourservices .textbox h2 {
+    font-size: 30px;
+  }
+  #ourservices .textbox h3 {
+    margin: 40px 0 0;
+  }
 }/*# sourceMappingURL=style.css.map */
