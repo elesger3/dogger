@@ -73,6 +73,12 @@ body {
   padding: 40px 0;
   width: 600px;
 }
+@media screen and (max-width: 992px) {
+  #welcome .text-left {
+    padding-right: 1px;
+    margin-left: 90px;
+  }
+}
 
 #about {
   padding: 40px 0;
